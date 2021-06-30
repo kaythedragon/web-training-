@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kimberley's Blog</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    		<link rel="preconnect" href="https://fonts.gstatic.com" 	crossorigin>
+    		<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Architects+Daughter&family=Caveat+Brush&family=Gochi+Hand&family=Grandstander:wght@300&display=swap" rel="stylesheet">
+        <style>
+            header, {color:white; text-align:center; background-color: 	#d8bfd8; font-family: 'Gochi Hand', cursive;}
+            body {color: black; text-align:center; background-color: 	#d8bfd8; font-family: 'Gochi Hand', cursive;}
+            header {margin-bottom: 5px; position: sticky; top: 0; width: 100%; text-align: center;}
+            p {font-size: large; font-family: 'Gochi Hand', cursive;}
+            nav ul li {display: inline-block; height: 20px; width: 95px; margin: 0 55x 0 5px;}
+            nav ul li a {list-style: none; white-space: nowrap; text-decoration: none; color: white; border: solid 1px white; padding: 5px 20px; border-radius: 12px;}
+            a:hover {opacity: 50%; transition: 0.6s; transform: scale(1.1); background-color: rgba(163, 163, 163, 0.247);}
+            a:link {text-decoration: none;}
+            a:visited {text-decoration: none;}
+            .blog {
+			          margin: 0 auto;
+                max-width: 625px;
+		         }
+            .navbar {
+                margin-bottom: 5px;
+           		  border-radius: 12px;
+                position: sticky;
+                top: 0;
+                width: 100%;
+                text-align: center;
+                display: flex;
+                justify-content: space-around;
+                background-color: #659EC7;
+                text-decoration: solid;
+                font-size: small;
+             }
+
+            @media screen and (max-width: 500px) {
+                body {
+                    background-color: #FDD7E4;
+                    color:#3090C7;
+                }
+                .secret {
+                    color: #3090C7;
+                }
+            }
+            @media screen and (min-width: 501px) {
+                .secret {
+                   display: none;
+                }
+          }
+            .greeting-message {
+                padding: 20px;
+                margin-bottom: 15px;
+            }
+            .close {
+                margin-left: 15px;
+                font-weight: bold;
+                float: right;
+                font-size: 22px;
+                line-height: 20px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+            .close:hover {
+                color: grey;
+                opacity: 50%
+            }
+        </style>
+    </head>
+     <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="netflix.com">Netflix</a></li>
+                <li><a href="twitter.com">Twitter</a></li>
+                <li><a href="youtube.tv">YouTube</a></li>
+            </ul>
+        </nav>
+        <h4>Kimberley Pascual</h4>
+     </header>
+    <div id="greeting-message">
+        <span class="close" onclick="this.parentElement.style.display='none';">&times;</span>
+    </div>
+    <div id="heading">Click here!</div>
+    <div class="blog">
+    <body>
+    <div id="greeting-message">
+            <span class="close" onclick="this.parentElement.style.display='none';">&times;</span>
+        </div>
+        <h1 class="secret">Fun Fact</h1>
+        <p class="secret">A fun fact about myself is that I have flown a plane before :p</p>
+        <body> 
+<center> <h1 style="font-family: 'Gochi Hand', cursive;"> Kimberley’s Blog</h1></center>
+<div class="blog">
+		<div class="blog-post">
+<center><h2 style="font-family: 'Gochi Hand', cursive;"> Someone I'd Love to Meet in Person </h2></center>
+<p style="font-family:'Architects Daughter', cursive;">
+I love listening to music by Jhene Aiko. I love how she incorporates high vibrational energy into her music and is really in tune with herself. I want to be in alignment and practice my spirituality the way she does. I would love to meet her in person and learn from her and talk or get some advice from her :) </p>
+<div class="blog">
+		<div class="blog-post">
+<center><h2 style="font-family: 'Gochi Hand', cursive;"> My Hobbies </h2></center>
+<p style="font-family:'Architects Daughter', cursive;">
+One of my hobbies is playing the piano. It helps me destress and it’s fun to play and let the music flow out of me once I get the hang of the notes. For now, I am only familiar with "Best Part" by H.E.R and Daniel Caesar, but I hope to start playing consistently again soon.</p>
+	</div>
+<div class="blog">
+<div class="blog">
+		<div class="blog-post">
+
+<center><h2 style="font-family: 'Gochi Hand', cursive;"> My Favorite Book </h2></center>
+<center><img src="https://images-na.ssl-images-amazon.com/images/I/51FcSSKpJBL._SX343_BO1,204,203,200_.jpg" alt="The Four Agreements" width="150" height="200"> </a></center>
+<p style="font-family:'Architects Daughter', cursive;">
+One of my favorite books is <i> The Four Agreements</i> by Don Miguel Ruiz. It is great for personal growth and grounding. I haven't finished reading it, but it has been useful to fall back on and re-read as a reminder to live in the present and do the best I can when I am stressed or overwhelmed.  
+</p>
+	</div>
+<div class="blog">
+		<div class="blog-post">
+<center><h2 style="font-family: 'Gochi Hand', cursive;"> My Favorite Movie</h2></center>
+<center><a href= "https://www.imdb.com/title/tt0147800/" ><img src="https://images-na.ssl-images-amazon.com/images/I/91w4beKh6%2BL._SL1500_.jpg" alt="10 Things I Hate about You" width="150" height="200"> </a></center>
+<p style="font-family:'Architects Daughter', cursive;">
+One of my comfort movies is <i> 10 Things I Hate About You</i>. I think it's a cute romcom and I love the scene of Heath Ledger singing in the bleachers, the paintball scene, and the final scene where Kat shares her poem titled the "10 Things I hate About You."
+</p>
+	</div>
+<div class="blog">
+		<div class="blog-post">
+<center><h2 style="font-family: 'Gochi Hand', cursive;">First Steps</h2></center>
+<p style="font-family:'Architects Daughter', cursive;">  Today I learned about the Albertsons Companies and their strategic framework which includes a Goal, Identity, Strategic Priority, and Strategic Initiatives. I thought it was interesting to learn about the back end of what goes on in a grocery store and how complex it is. It was cool to learn about how Safeway got its name. The company was a safe way to shop for groceries during the Great Depression and prevent customers from going into any or more debt. They had a cash and carry operation to protect their customers.</p>
+
+<p style="font-family: 'Architects Daughter', cursive;"> During the second portion of today’s class I learned about Web Apps and how they are made. I didn’t know how interconnected and complex web pages are. My main takeaway was that HTML(HyperText Markup Language) provides the basic structure of a web page; CSS (Cascading Style Sheets) changes the appearance of HTML so that we pages are easier to use and nicer to look at; and  JavaScript can manipulate HTML and CSSS to make web pages more reactive and dynamic. </p>
+	</div>
+ </article>
+        </div>
+        </div>
+        
+        <script>
+        const greetings = ["turn upppp!", "Welcome!", "wasss poppinnn"];
+        function randomNumber(lower, upper) {
+            let rand = (Math.random() * (upper - lower)) + lower;
+            let wholeNum = Math.round(rand);
+            return wholeNum;
+            }
+
+        function randomGreeting(greeting) {
+            return greeting[randomNumber(0,2)];
+        }
+        
+        var clicks = 0;
+        var pluralNoun = '';
+        var tooManyClick = '';
+        alert(randomGreeting(greetings));
+        document.addEventListener("DOMContentLoaded", function() {
+            const greetingMessage = document.getElementById("greeting-message");
+            const greet = document.createElement("h2");
+            greet.innerText = randomGreeting(greetings);
+            greetingMessage.append(greet);
+
+            let clickable = document.querySelector("#heading");
+            clickable.addEventListener("click", function(event) {
+    	    clicks += 1;
+    	    event.preventDefault();
+            if (clicks == 2) {
+                pluralNoun = 's';
+            }
+            if (clicks >= 10) {
+                tooManyClick = "Nice Job Mate!";
+            }
+            greet.innerText = clicks + ' Click' + pluralNoun + '! ' + tooManyClick;
+            if (clicks == 5) {
+                console.log("You've found me! Congratulations!")
+            }
+            })
+        })
+        </script>
+</body>
+</html>
